@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Task-2</title>
+    <link rel="stylesheet" href="css/style.css">
+
+   
+</head>
+
+<body>
+    <header>
+        <li class="logo" id="log"><img src="img/gh (1).png" alt="error in loading"></li>
+        <nav class="navbar" id="nav1" name="navtool">
+            <ul>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a> </li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+        <button name="icn" class="icon" , onclick="func()"><i class="fa fa-bars"></i></button>
+
+    </header>
+    <div class="container">
+        <div class="forcircle">
+             
+            <div class="circle" id="circle"></div>
+            <div class="circle" id="img"><img src="img/Untitled-1 2.png" alt="error in loading" style="margin: auto;"></div>
+        </div>
+        <div class="box" id="content">
+            <p id="heading" class="line1">ASHUTOSH</p>
+            <p class="line1" id="l1">I am a Web Designer and Ashutosh's fan. <br>I just want to marry him. <br></p>
+
+            <p class="line1" id="l2">Welcome to GeekHaven. We are the technical Society of IIIT
+                Allahabad. <br> Geekhaven is comprised of seven wings , you can
+                visit the site of those <br> wings individually. Welcome to GeekHaven.
+                We are the technical Society <br> of IIIT Allahabad. Geekhaven is
+                comprised of seven wings , you can visit <br> the site of those
+                wings individually.</p>
+
+        </div>
+
+
+    </div>
+    <div class="div2"> <a href="https://www.facebook.com/" target="_blank" class="eicon"><i
+                class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/" target="_blank" class="eicon"><i class="fa fa-twitter-square"
+                aria-hidden="true"></i></a>
+        <a href="https://github.com/ashutosh3027" target="_blank" class="eicon"><i class="fa fa-github"
+                aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/?hl=en" target="_blank" class="eicon"><i class="fa fa-instagram"
+                aria-hidden="true"></i></a>
+        <a href="https://mail.google.com" class="eicon" target="_blank"><i class="fa fa-envelope"
+                aria-hidden="true"></i></a>
+    </div>
+    <div class="div2">
+        <p style="color:rgb(19, 247, 210, 1); ">Made by Ashutosh Verma &#169; Twenty Twenty-One</p>
+    </div>
+    </div>
+    <script>
+        var c = 0;
+        function func() {
+            element = document.querySelector('#nav1');
+            if (c % 2 == 0) {
+                element.style.setProperty('left', '0%');
+            }
+            else if (c % 2 != 0) {
+                element.style.setProperty('left', '-100%');
+            }
+            c++;
+        } 
+    </script>
+
+</body>
+
+</html>
